@@ -10282,9 +10282,6 @@ body {
 .block .nav-link {
   background-color: #fff;
   color: #013002;
-  border-radius: 50%;
-  padding: 50px;
-  margin: 50px;
   border: 1px dashed #013002;
 }
 .block .nav-link.active {
@@ -10293,11 +10290,8 @@ body {
   border: none;
 }
 .block .tab-content {
-  padding: 50px;
   background-color: #013002;
   color: #fff;
-  margin: 50px;
-  border-radius: 50%;
 }
 .block .tab-content .tab-pane {
   padding: 60px 70px;
@@ -10311,4 +10305,8 @@ body {
   background-color: #fff;
   color: #013002;
   border: none;
+}
+
+.bg-dark {
+  background-color: #013002 !important;
 }

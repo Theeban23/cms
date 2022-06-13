@@ -13,14 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
 });
 
 Route::get('dashboard', function () {
-    return view('pages.dashboard');
-});
+    return view('pages.dashboard', ['name' => 'CMS']);
+});*/
 
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/', 'PageController@welcome');
+Route::get('dashboard', 'PageController@dashboard');

@@ -10,9 +10,6 @@ body{
     .nav-link{
         background-color:$bg-white;
         color:$co-013002;
-        border-radius: 50%;
-        padding:50px;
-        margin:50px;
         border:1px dashed $br-013002;
         &.active{            
             background-color:$bg-013002;            
@@ -21,11 +18,8 @@ body{
         }
     }
     .tab-content{
-        padding:50px;
         background-color:$bg-013002;
         color:$co-white;
-        margin:50px;
-        border-radius: 50%;
         .tab-pane{
             padding:60px 70px;
         }
@@ -40,4 +34,7 @@ body{
             border:none;
         }
     }
+}
+.bg-dark{
+    background-color: $bg-013002!important;
 }
